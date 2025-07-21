@@ -1,9 +1,32 @@
-#ifndef CALCULATOR_H
-#define CALCULATOR_H
+#include <iostream>
+using namespace std;
 
-int add(int a,int b);
-int sub(int a,int b);
-int mul(int a,int b);
-int div(int a,int b);
+int main() {
+        int p,q,r;
+        int minimum,maximum;
 
-#endif
+        cout<<"Enter Three Numbers:"<<endl;
+        cin>>p>>q>>r;
+
+        if(a<=b&&a<=c) {
+                minimum=a;
+        } else if(b<=a&&b<=c) {
+                minimum=b;
+        }else{
+                minimum=c;
+        }
+
+        if(a>=b&&a>=c) {
+                maximum=a;
+        } else if(b>=a&&b>=c) {
+                maximum=b;
+        }else{
+                maximum=c;
+        }
+
+        cout<<"Minimum value is :"<<minimum<<endl;
+
+        cout<<"Maximum value is :"<<maximum<<endl;
+
+        return 0;
+}
